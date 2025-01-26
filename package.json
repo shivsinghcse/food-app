@@ -1,0 +1,58 @@
+{
+  "name": "namste_reactjs",
+  "version": "1.0.0",
+  "description": "This is Namste reactJS by Ashutosh Mishra",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest",
+    "watch-test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Ashutosh26121999/ReactJS.git"
+  },
+  "keywords": [
+    "learn",
+    "react"
+  ],
+  "author": "Ashutosh Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashutosh26121999/ReactJS/issues"
+  },
+  "homepage": "https://github.com/Ashutosh26121999/ReactJS#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@mui/icons-material": "^6.1.9",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/react": "^16.2.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "parcel": "^2.12.0",
+    "postcss": "^8.4.49",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.26.3",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.3.0",
+    "@reduxjs/toolkit": "^2.5.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "emailjs-com": "^3.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.5.1",
+    "react-icons": "^5.4.0",
+    "react-loader-spinner": "^6.1.6",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.27.0"
+  },
+  "browserslist": [
+    " last 0 versions"
+  ]
+}
