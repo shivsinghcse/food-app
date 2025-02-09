@@ -33,9 +33,7 @@ const Body = () => {
             </div>
         );
 
-    return listOfRestaurant.length === 0 ? (
-        <Shimmer />
-    ) : (
+    return (
         <div className="body w-[100vw]">
             {/* <div className="filter">
                 <div className="search">

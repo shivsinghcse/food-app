@@ -12,6 +12,7 @@
     "namaste",
     "react"
   ],
+ 
   "author": "Shiv Singh",
   "license": "ISC",
   "devDependencies": {
