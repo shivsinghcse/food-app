@@ -7,7 +7,7 @@ import useRestaurant from '../../utils/useRestaurant';
 import useOnlineStatus from '../../utils/useOnlineStatus';
 
 const Body = () => {
-    const [searchText, setSearchText] = useState('');
+    // const [searchText, setSearchText] = useState('');
 
     const [listOfRestaurant, filteredRestaurant, inMinds] = useRestaurant();
     const onlineStatus = useOnlineStatus();

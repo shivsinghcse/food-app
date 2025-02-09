@@ -7,7 +7,7 @@ import UserContext from '../../utils/UserContext';
 const Header = () => {
     const [btn, setBtn] = useState('Login');
     const onlineStatus = useOnlineStatus();
-    const {loggedInUser} = useContext(UserContext);
+    const { loggedInUser } = useContext(UserContext);
     console.log(loggedInUser);
 
     return (
@@ -32,15 +32,17 @@ const Header = () => {
                     <li className="text-red-800 text-xl font-semibold">
                         <Link to="/contact">Contact us</Link>
                     </li>
-                    <li className="text-red-800 text-xl font-semibold">
+                    {/* <li className="text-red-800 text-xl font-semibold">
                         <Link to="/grocery">Grocery</Link>
-                    </li>
+                    </li> */}
                     <li className="text-red-800 text-xl font-semibold">Cart</li>
                 </ul>
                 <button
                     className="mx-5 w-24 py-2 bg-green-700 font-semibold hover:cursor-pointer text-lg text-white rounded-md"
                     onClick={() => {
-                        btn === 'Login' ? setBtn(`Logout -  ${loggedInUser}`) : setBtn('Login');
+                        btn === 'Login'
+                            ? setBtn(`Logout -  ${loggedInUser}`)
+                            : setBtn('Login');
                     }}
                 >
                     {btn}

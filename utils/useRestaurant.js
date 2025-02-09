@@ -18,7 +18,7 @@ const useRestaurant = () => {
             json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
                 ?.restaurants
         );
-        console.log("json",json);
+        // console.log("json",json);
         
         setFilteredRestaurant(
             // optional chaining
@@ -30,6 +30,9 @@ const useRestaurant = () => {
             json?.data?.cards[0]?.card?.card?.gridElements?.infoWithStyle?.info
         );
     };
+
+   
+    
 
     return data;
 };
